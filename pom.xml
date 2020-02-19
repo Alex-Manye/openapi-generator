@@ -1521,6 +1521,16 @@
                 <module>samples/client/petstore/objc/core-data/SwaggerClientTests</module>-->
             </modules>
         </profile>
+        <profile>
+            <id>jdk13</id>
+            <modules>
+                <module>modules/openapi-generator-core</module>
+                <module>modules/openapi-generator</module>
+                <module>modules/openapi-generator-cli</module>
+                <module>modules/openapi-generator-maven-plugin</module>
+                <module>modules/openapi-generator-online</module>
+            </modules>
+        </profile>
     </profiles>
     <modules>
         <module>modules/openapi-generator-core</module>
